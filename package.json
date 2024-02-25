@@ -1,0 +1,30 @@
+{
+  "name": "sonarr.tv",
+  "version": "0.0.0",
+  "description": "Sonarr's Website",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NzbDrone/NzbDrone.git"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "serve": "gulp serve"
+  },
+  "author": "",
+  "license": "BSD",
+  "gitHead": "9ff7aa1bf7fe38c4c5bdb92f56c8ad556916ed67",
+  "readmeFilename": "readme.md",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.2",
+    "gulp-cache-bust": "^1.4.0",
+    "gulp-imagemin": "^2.0.0",
+    "gulp-less": "^1.3.6",
+    "gulp-pretty-html": "^2.0.9",
+    "gulp-print": "^1.1.0",
+    "gulp-util": "^3.0.8",
+    "marko": "^4.14.18",
+    "through2": "^3.0.0"
+  }
+}
