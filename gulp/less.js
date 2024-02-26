@@ -7,7 +7,6 @@ var errorHandler = require('./errorHandler');
 gulp.task('less', function () {
     return  gulp.src([
             'css/theme.less',
-            'css/donate.less'
     ])
         .pipe(print())
         .pipe(less({

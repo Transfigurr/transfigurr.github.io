@@ -1,11 +1,11 @@
 {
-  "name": "sonarr.tv",
+  "name": "transfigurr.com",
   "version": "0.0.0",
-  "description": "Sonarr's Website",
+  "description": "Transfigurr's Website",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/NzbDrone/NzbDrone.git"
+    "url": "git://github.com/transfigurr/transfigurr.git"
   },
   "scripts": {
     "build": "gulp build",
